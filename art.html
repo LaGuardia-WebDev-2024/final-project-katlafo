@@ -6,9 +6,15 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+  
+      body{
+        background-color: #ffdfea;
+        color: #c33f6d;
+      }
+      
       .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: pink;
         justify-content: space-around;
         padding: 10px;
         margin-bottom: 20px;
@@ -17,7 +23,21 @@
       .parent-flex img {
         max-width: 30%;
         border-radius: 10px;
+        border: 5px solid #e74a7fff;
+        margin: 20px;
       }
+      
+      .parent-flex video {
+     
+        margin: 20px;
+      }
+      
+       .title{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+      }
+      
     </style>
   </head>
   <body>
@@ -25,17 +45,10 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a class="active" href="art.html">Art</a></li>
+      <li><a class="active" href="art.html">Media !</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="https://www.instagram.com/katlafo?igsh=bDV0bTU3MzJkcTNl&utm_source=qr"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
@@ -43,24 +56,38 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
-
+    <h1 class="title">Media!</h1>
+    
+ <div class="parent-flex">
+  
+      <video width="900px" controls>
+        <source src="https://cdn.glitch.me/11b38fec-9f46-4f9f-a298-36fde048a116/Industry%20Showcase%20Monologue.mov?v=1748880121581" type="video/mp4">
+      </video>
+    
+    </div>
+    
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+     
+       <img
+        src="https://cdn.glitch.global/11b38fec-9f46-4f9f-a298-36fde048a116/Katina_Laforestrie.jpg?v=1748878130897"
       />
       <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
+        src="https://cdn.glitch.global/11b38fec-9f46-4f9f-a298-36fde048a116/DSC_4617.JPG?v=1748878168197"
+      />
+      <img
+        src="https://cdn.glitch.global/11b38fec-9f46-4f9f-a298-36fde048a116/Katina_Laforestrie_P1.jpg?v=1748878121543"
       />
     </div>
 
-    <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+     <div class="parent-flex">
+     
+       <img
+        src="https://cdn.glitch.global/11b38fec-9f46-4f9f-a298-36fde048a116/photo%201.jpg?v=1748531964509"
       />
       <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
+        src="https://cdn.glitch.global/11b38fec-9f46-4f9f-a298-36fde048a116/photo%204%20copy.jpg?v=1748878137708"
       />
     </div>
+   
   </body>
 </html>

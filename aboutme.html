@@ -6,41 +6,48 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      
+      body{
+        background-color: #ffdfea;
+        color: #c33f6d;
+      }
+      
       .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: pink;
         align-items: center;
         justify-content: space-around;
         margin-bottom: 50px;
       }
 
-      .parent-flex img {
-        width: 150px;
-        padding: 20px;
+      .parent-flex video {
+        width: 550px;
+        border: 5px solid #e74a7fff;
+        margin: 20px;
+        
       }
       .child-flex p {
         background-color: pink;
         padding: 20px;
-        margin: 20px;
+        margin: 10px;
       }
+    
+      .title{
+        text-align: center;
+        margin-top: 100px;
+      }
+      
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
-      <li><a class="active" href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
+      <li><a class="active" href="aboutme.html">About Me !</a></li>
+      <li><a href="art.html">Media</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="https://www.instagram.com/katlafo?igsh=bDV0bTU3MzJkcTNl&utm_source=qr"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
@@ -49,42 +56,23 @@
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>About Me</h1>
+    <h1 class="title">About Me</h1>
     <div class="parent-flex">
       <div class="child-flex">
-        <img
-          src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-        />
+        <video width="400" controls>
+  <source src="https://cdn.glitch.me/11b38fec-9f46-4f9f-a298-36fde048a116/all%20about%20me!.mp4?v=1748878948970" type="video/mp4">
+</video>
       </div>
       <div class="child-flex">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+          Hello, reader! I’m an actress who started out on stage and is now stepping into the world of film. I graduated from LaGuardia High School as a drama major, where I spent years diving into scenes, building characters, and learning what it really means to tell a story. I’ve trained extensively in theater and had the chance to work with Katie Cappiello in a class that pushed me to dig deeper and stay honest in every moment. <br> <br>
+
+I’m represented by Rebel Creative Group and Take 3 Talent, and I’m ready to take on new challenges in front of the camera. I’ve played a wide range of roles—from the wild energy of Black Stache to the quiet heartbreak of Nina in The Seagull. I don’t shy away from contrast. I lean into it. <br> <br>
+
+What drives me most is the chance to reach people. I want to move, challenge, and inspire anyone watching. I want to bring light to voices and stories that often get overlooked. Acting lets me connect, and through that connection, I hope to spark something—whether it’s reflection, conversation, or change.
         </p>
       </div>
     </div>
-    <div class="parent-flex">
-      <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
-      <div class="child-flex">
-        <img
-          src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-        />
-      </div>
-    </div>
+
   </body>
 </html>
